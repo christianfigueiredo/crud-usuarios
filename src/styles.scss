@@ -3,3 +3,26 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+:root {
+  --primary-color: #7533a8;
+  --gray-color: #747474;
+  --error-color: #ac2828;
+}
+
+.c-primary{
+  color: var(--primary-color);
+}
+
+.c-gray{
+  color: var(--gray-color);
+}
+
+.c-error{
+  color: var(--error-color);
+}
+
+.hover:hover{
+  cursor: pointer;
+}
